@@ -95,39 +95,18 @@ export const SKILLS = [
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
+  title: "",
+  award: "",
   description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
+    "",
 };
 
 export const TESTIMONIALS = [
   {
-    name: "Emily Johnson",
-    title: "CEO, Tech Innovators",
-    quote:
-      "Working with Robert has been an incredible experience. His design sensibilities and technical expertise are top-notch, making him a valuable asset to any project.",
-    image: user1,
-  },
-  {
-    name: "Michael Lee",
-    title: "CTO, Creative Minds",
-    quote:
-      "Robert consistently delivers high-quality work, combining creativity and technical prowess. His ability to solve complex problems with elegant solutions is truly impressive.",
-    image: user2,
-  },
-  {
-    name: "Sophia Martinez",
-    title: "Lead Developer, Digital Solutions",
-    quote:
-      "Robert's dedication to his craft is evident in every project he undertakes. His innovative approach and attention to detail set him apart as a leading designer and developer.",
-    image: user3,
-  },
-  {
     name: "Daniel Thompson",
-    title: "Project Manager, InnovateX",
+    title: "Project Manager, ABC",
     quote:
-      "Robert's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
+      "Pranav's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
     image: user4,
   },
 ];

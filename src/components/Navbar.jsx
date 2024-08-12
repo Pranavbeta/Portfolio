@@ -15,7 +15,7 @@ const Navbar = () => {
         const targetElement = document.querySelector(href);
         if(targetElement){
             const offset = -85;
-            const elementPosition = targetElement.getBoundingClientReact().top;
+            const elementPosition = targetElement.getBoundingClientRect().top;
             const offsetPostion = elementPosition + window.scrollY + offset;
 
             window.scrollTo({
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <ul className="flex items-center gap-4">
                     {NAVIGATION_LINKS.map((item,index)=>(
                         <li key={index}><a className="text-sm hover:text-yellow-400" href={item.href}
-                        onClick={(e)=> handleLinClick(e,item.href)}>
+                        onClick={(e)=> handleLinkClick(e,item.href)}>
                             {item.label}
                         </a>
                         </li>
@@ -73,7 +73,7 @@ const Navbar = () => {
                 {NAVIGATION_LINKS.map((item,index)=>(
                     <li key={index}>
                         <a className="block w-full text-xl font-semibold" href={item.href} 
-                        onClick={(e)=>handleLinkClick(e,item.href)}>
+                        onClick={(e)=> handleLinkClick(e,item.href)}>
                             {item.label}
                         </a>
                     </li>
