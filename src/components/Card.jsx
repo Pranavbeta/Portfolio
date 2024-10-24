@@ -1,5 +1,3 @@
-import { PROJECTS } from '../constants'
-
 const Card = ({image,title,subtitle,link}) => {
   return (
     <a href={link} className="m-4 block max-w-sm overflow-hidden rounded-lg">
