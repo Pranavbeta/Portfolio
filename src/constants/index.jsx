@@ -2,9 +2,7 @@ import {
   FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
   FaDiscord,
-  FaInstagram,
 } from "react-icons/fa6";
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -18,9 +16,7 @@ import image2 from "../assets/project2.jpeg";
 import image4 from "../assets/project4.jpeg";
 
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
+;
 import user4 from "../assets/profile-pictures/user4.jpg";
 
 export const NAVIGATION_LINKS = [
@@ -101,15 +97,6 @@ export const ACHIEVEMENT = {
     "",
 };
 
-export const TESTIMONIALS = [
-  {
-    name: "Daniel Thompson",
-    title: "Project Manager, ABC",
-    quote:
-      "Pranav's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
-    image: user4,
-  },
-];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
